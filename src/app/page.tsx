@@ -50,7 +50,7 @@ export default function Home() {
               />
             </Link>
 
-            <Link href="/post/6705f1aa000747048505">
+            <Link href="/post/67060954002457283bf2">
               <ContestCard
                 title="Build a Decentralized Crowdfunding Platform on Solana"
                 description="Design and build a decentralized crowdfunding platform where users can start campaigns and receive funds in SOL. Implement wallet authentication and automatic fund distribution based on campaign goals."
