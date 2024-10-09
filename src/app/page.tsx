@@ -93,6 +93,7 @@ export default function Home() {
                 amount={1}
                 endDate={new Date('2024-11-13T06:30:00')}
               />
+            </Link>
           </div>
           <div className="text-center m-2">
             <Link href='/explore'>
