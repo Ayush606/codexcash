@@ -7,7 +7,7 @@ const storage = new Storage(client);
 
 client
     .setEndpoint(process.env.NEXT_PUBLIC_ENDPOINT)
-    .setEndpointRealtime('wss://cloud.codexcash.com/v1/realtime')
+    .setEndpointRealtime(process.env.NEXT_PUBLIC_REALTIME_ENDPOINT)
     .setProject(process.env.NEXT_PUBLIC_PROJECT_ID);
 
 
